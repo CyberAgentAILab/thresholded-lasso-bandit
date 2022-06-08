@@ -55,7 +55,7 @@ def main():
     parser.add_argument('--d', type=int, default=1000,
                         help='dimension of feature vectors')
     parser.add_argument('--s0', type=int, default=5, help='sparsity index')
-    parser.add_argument('--l', type=int, default=100,
+    parser.add_argument('--l', type=int, default=200,
                         help='parameter of an elliptical distribution')
     parser.add_argument('--num_trial', type=int, default=20,
                         help='number of trials to run experiments.')

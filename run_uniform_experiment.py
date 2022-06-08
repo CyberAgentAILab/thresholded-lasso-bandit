@@ -54,7 +54,7 @@ def main():
     parser.add_argument('--T', type=int, default=1000, help='number of rounds')
     parser.add_argument('--d', type=int, default=1000,
                         help='dimension of feature vectors')
-    parser.add_argument('--s0', type=int, default=20, help='sparsity index')
+    parser.add_argument('--s0', type=int, default=5, help='sparsity index')
     parser.add_argument('--num_trial', type=int, default=20,
                         help='number of trials to run experiments.')
     args = parser.parse_args()
