@@ -19,7 +19,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y install \
             libsqlite3-dev \
             liblzma-dev \
             curl
-RUN git clone git://github.com/yyuu/pyenv.git $HOME/.pyenv
+RUN git clone https://github.com/yyuu/pyenv.git $HOME/.pyenv
 RUN git clone https://github.com/yyuu/pyenv-virtualenv.git $HOME/.pyenv/plugins/pyenv-virtualenv
 RUN pyenv install 3.6.0
 RUN pyenv global 3.6.0
