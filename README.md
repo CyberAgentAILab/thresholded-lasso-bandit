@@ -19,11 +19,11 @@ $ pip install -r requirements.txt
 ### For Docker User
 Build the container:
 ```bash
-$ docker build -t th_lasso_bandit .
+$ docker build -t thresholded-lasso-bandit .
 ```
 After build finished, run the container:
 ```bash
-$ docker run -it th_lasso_bandit
+$ docker run -it thresholded-lasso-bandit
 ```
 
 ## Run Experiments

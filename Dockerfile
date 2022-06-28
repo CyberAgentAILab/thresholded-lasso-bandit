@@ -30,6 +30,6 @@ RUN pip install --upgrade pip
 RUN pip install numpy pandas scikit-learn
 
 # COPY
-RUN mkdir $HOME/th_lasso_bandit
-COPY ./ $HOME/th_lasso_bandit
-WORKDIR $HOME/th_lasso_bandit
+RUN mkdir $HOME/thresholded-lasso-bandit
+COPY ./ $HOME/thresholded-lasso-bandit
+WORKDIR $HOME/thresholded-lasso-bandit
