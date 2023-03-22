@@ -50,3 +50,16 @@ $ python run_elliptical_experiment.py
 ```bash
 $ python run_hard_instance_experiment.py
 ``` 
+
+## Citation
+If you use our code in your work, please cite our paper:
+```
+@InProceedings{ariu2022thlassobandit,
+  title = 	 {Thresholded Lasso Bandit},
+  author =       {Ariu, Kaito and Abe, Kenshi and Proutiere, Alexandre},
+  booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
+  pages = 	 {878--928},
+  year = 	 {2022},
+  volume = 	 {162}
+}
+```
